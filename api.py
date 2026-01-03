@@ -15,7 +15,7 @@ app = FastAPI(
 )
 
 # load model 
-model = joblib.load("model/model.pkl")
+model = joblib.load("models/model.pkl")
 
 # Request Schema
 class TextRequest(BaseModel):
