@@ -15,7 +15,7 @@ app = FastAPI(
 )
 
 # load model 
-model = joblib.load("model/mental_health_nlp_model.pkl")
+model = joblib.load("model/model.pkl")
 
 # Request Schema
 class TextRequest(BaseModel):
